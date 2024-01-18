@@ -18,7 +18,7 @@ public class Main {
     static ArrayList<Hero> heroesWhite = new ArrayList<>();
     static ArrayList<Hero> heroesBlack = new ArrayList<>();
 
-    static ArrayList generateCommand(int n) {
+    static ArrayList<Hero> generateCommand(int n) {
 
         ArrayList<Hero> commandHeroes = new ArrayList<>();
         Random random = new Random();
